@@ -1,0 +1,66 @@
+body {
+    background-color: rgba(255, 255, 255, .9);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: lighten;
+    }
+    * {
+  font-family: "Segoe UI Historic", "Segoe UI", helvetica, arial, sans-serif;
+    }
+.lead {
+    font-size: 1.4rem;
+    }
+.negrito{
+    font-size: 1.6rem;
+    font-weight: bolder;
+    text-align: center;
+    }
+.destaquered {
+    font-size: 1.8rem;
+    color: rgb(255, 0, 55);
+    font-weight: bolder;
+    text-align: center;
+    }
+.destaqueblack {
+    font-size: 1.8rem;
+    font-weight: bolder;
+    text-align: center;
+    }
+.under {
+    text-decoration: underline;
+    }
+.tachado {
+    text-decoration: line-through;
+    }
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.row {
+    display: flex;
+    grid-row-gap: 1rem;
+
+    }
+.column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:  auto;
+    column-gap: 1rem;
+}
+a, a:visited, a:hover, a:active {
+        text-decoration: none;
+} 
+
+.pricered{
+    font-weight: bolder;
+    font-size: 1.6rem;
+    text-decoration: line-through;
+    color: rgb(255, 0, 55);
+    text-align: center;
+}
+.price{
+    font-weight: bolder;
+    font-size: 2rem;
+    color: green;
+    text-align: center;
+}
