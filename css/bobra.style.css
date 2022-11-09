@@ -1,0 +1,73 @@
+@font-face {
+	font-family: "Segoe UI Historic", "Segoe UI", helvetica, arial, sans-serif;
+	/*src: url("font.otf") format("opentype");*/
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+	font-family: "Segoe UI Historic", "Segoe UI", helvetica, arial, sans-serif;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background: url("../img/bobra.png"); no-repeat fixed center;
+	background-size:500px;
+	background-position: center;
+}
+
+.container {
+	width: 700px;
+	max-width: 90%;
+}
+
+.black {
+	background-color: rgba(255,255,255,0.8);
+	background-blend-mode: darken;
+	padding: 10px;
+	text-align: center;
+	border-radius: 20px;
+	/*box-shadow: 0 0 10px 2px;*/
+}
+
+.answer {
+	display: grid;
+	grid-template-columns: repeat(1, auto);
+	gap: 10px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.question {
+	display: grid;
+	grid-template-columns: repeat(1, auto);
+	grid-gap: 2px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.btn {
+	border-radius: 10px;
+	padding: 5px 10px;
+	font-size: 30px;
+	background-color: #F06827;
+	outline: none;
+	color: white;
+	text-decoration: blink;
+}	
+
+.black h1 {
+	color: gold;
+	font-size: 40px;
+}
+
+.black p {
+	font-size: 18px;
+	color: white;
+}
